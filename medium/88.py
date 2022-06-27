@@ -3,7 +3,8 @@
 
 # find 6 / 2 using subtraction. 
 ## Manually 6 / 2.  6 -2 -2 -2 =  0. 2 can be subtracted 3 times.
-# count amount of times value can be subtracted from another
+# count amount of times value can be subtracted from the other value wihtout the value being less than 0.
+### account for odd values by checking if a -b is less than 0 and a is greater than 0
 
 
 
@@ -19,4 +20,4 @@ def divisionOfPosInt(a, b):
     return count
 
 
-print(divisionOfPosInt(256, 3))
+print(divisionOfPosInt(5455, 3))
