@@ -12,10 +12,11 @@ def divisionOfPosInt(a, b):
     count = 0
     while a > 0:
         a -= b
-        if  (a -b ==-1):
-            count -=1
         count +=1
+        if  (a-b < 0 and a > 0):
+            count -=1
+        
     return count
 
 
-print(divisionOfPosInt(11, 3))
+print(divisionOfPosInt(256, 3))
